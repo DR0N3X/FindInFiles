@@ -143,7 +143,7 @@ namespace FindInFiles
         {
             // Create Folder Browser and give it a title
             WinForms.FolderBrowserDialog folderBrowser = new WinForms.FolderBrowserDialog();
-            folderBrowser.Description = "Select a foooooolder";
+            folderBrowser.Description = "Select a folder";
 
             // show it to the user
             folderBrowser.ShowDialog();
